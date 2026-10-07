@@ -1,0 +1,7 @@
+plugins { id 'application' }
+
+dependencies { implementation project(':common') }
+
+application { mainClass = 'apexstore.pasarelas.ServidorPasarelas' }
+
+tasks.named('run') { workingDir = projectDir }

@@ -1,0 +1,7 @@
+plugins { id 'application' }
+
+dependencies { implementation project(':common') }
+
+application { mainClass = 'apexstore.cliente.ClientePrueba' }
+
+tasks.named('run') { workingDir = projectDir }

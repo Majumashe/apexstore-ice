@@ -1,0 +1,5 @@
+rootProject.name = 'apexstore-ice'
+include('common')
+include('backend')
+include('pasarelas')
+include('cliente')

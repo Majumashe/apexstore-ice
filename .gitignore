@@ -1,0 +1,21 @@
+.gradle
+build
+
+# Salida de compilación del plugin Java de VS Code
+bin/
+
+# Metadatos de Eclipse/JDT que genera la extensión de Java
+.classpath
+.project
+.settings/
+
+# Clases sueltas y logs
+*.class
+*.log
+
+# Basura de Windows
+Thumbs.db
+Desktop.ini
+
+# Archivos locales de la extensión de VS Code
+.extension/
